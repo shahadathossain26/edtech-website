@@ -6,3 +6,49 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.slider {
+    background: rgba(29, 29, 29, 0.7);
+}
+
+@media only screen and (max-width:767px) {
+
+    .slider-text h1 {
+        font-size: 17px;
+    }
+
+    .slider-text p {
+        font-size: 9px;
+    }
+
+    .slider-text button {
+        width: 120px;
+        padding: 0px;
+        font-size: 12px;
+    }
+
+    .course img {
+        width: 90%;
+        height: 300px;
+    }
+
+    .course-details {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .slider-text h1 {
+        font-size: 40px;
+    }
+
+    .slider-text p {
+        font-size: 16px;
+    }
+
+    .slider-text button {
+        width: 140px;
+    }
+
+
+}
