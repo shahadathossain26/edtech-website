@@ -11,6 +11,10 @@ body {
     background: rgba(29, 29, 29, 0.7);
 }
 
+footer {
+    background-color: #161616;
+}
+
 @media only screen and (max-width:767px) {
 
     .slider-text h1 {
